@@ -121,4 +121,31 @@ $filteredArray
 # Output: 1, 2, 3, 4, 5, 6
 
 
-# ===========================Mu====================================
+# ===========================Muulti-dimension array====================================
+
+$myMulDim = @(@(1,2),@(3,4))
+
+$myMulDim[0][1]
+$myMulDim[1][1]
+
+
+# ===========================Slicing====================================
+
+
+$myArraysl = 1, 2, 3, 3, 4, 5, 6
+
+# Extract element from 1 to 3
+
+$subArrays =$myArraysl[1..3]
+
+$subArrays
+
+# ===========================Special array feature====================================
+
+$myAraysl = 1, 2, 3, 3, 4, 5, 6
+
+$myAraysl -contains 3
+
+5 -in $myAraysl
+
+$myAraysl -join "@"
