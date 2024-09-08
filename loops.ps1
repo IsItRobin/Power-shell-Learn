@@ -1,16 +1,4 @@
 
-#  Operator	        Description	                Example
-#   -eq	            Equal to	                $a -eq $b
-#   -ne	            Not equal to	            $a -ne $b
-# - lt	            Less than	                $a -lt $b
-#   -le	            Less than or equal to	    $a -le $b
-#   -gt	            Greater than	            $a -gt $b
-#   -ge	            Greater than or equal to	$a -ge $b
-#   -like	        Wildcard pattern match	    $a -like "pattern"
-# - match	        Regular expression match	$a -match "regex"
-
-#   -contains	Checks if an array contains a specific item	$array -contains $item
-#   -not	    Negates a condition	-not    ($a -eq $b)
 
 #  For loop ========================================
 
